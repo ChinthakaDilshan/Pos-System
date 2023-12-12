@@ -1,0 +1,144 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("/asset/img/burger.png");
+}
+
+@media (width > 744px) {
+    #logo {
+        width: 115px;
+        height: 122px;
+        position: absolute;
+        top: 0;
+    }
+
+    #burgerPng {
+        top: 2%;
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 15%;
+    }
+
+    #name {
+        top: 2%;
+        position: absolute;
+        left: 25%;
+        font-weight: 800;
+        font-size: 55px;
+        color: #ffff;
+    }
+
+
+    #btnGroup {
+        left: 90%;
+        margin-top: 2%;
+
+    }
+
+    #p1 {
+        position: absolute;
+        left: 13%;
+        top: 30%;
+        font-size: 55px;
+        font-weight: 900;
+        line-height: 70px;
+        color: #ffff;
+    }
+
+    #p2 {
+        position: absolute;
+        left: 13%;
+        top: 55%;
+        font-size: 36px;
+        font-weight: 600;
+        color: #FF0000;
+    }
+
+    #p3 {
+        position: absolute;
+        left: 13%;
+        top: 65%;
+        font-size: 24px;
+        font-weight: 400;
+        color: #ffff;
+    }
+
+    .button {
+        position: absolute;
+        width: 250px;
+        height: 50px;
+        top: 85%;
+        border-radius: 40px;
+    }
+
+    #btnAdd {
+        left: 13%;
+        background-color: #FF0000;
+        color: #ffff;
+
+    }
+
+    #btnAdd p {
+        margin-left: 50px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btnAdd img {
+        margin-left: 20px;
+    }
+
+    #btnMenu {
+        left: 32%;
+        background-color: darkcyan;
+        color: #ffff;
+    }
+}
+
+/* @media ( 430px<= width <= 744px) {
+    #logo {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 0;
+    }
+
+    #burgerPng {
+        top: 1%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 15%;
+    }
+        
+    #name {
+        top: 1%;
+        position: absolute;
+        left: 25%;
+        font-weight: 800;
+        font-size: 55px;
+        color: #ffff;
+    }
+
+  }
+  
+
+  @media ( width < 430px) {
+    #logo {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+    }
+
+    #burgerPng {
+        top: 1%;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 17%;
+    }
+    
+  } */
